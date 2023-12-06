@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(32, 32, 249);
+    font-family: jura;
+    font-size: 2rem;
+  }
+  h1 {
+    font-family: iceland;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  .navButton {
+    height: 60px;
+  }
