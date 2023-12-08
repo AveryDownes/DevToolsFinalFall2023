@@ -62,11 +62,147 @@
             Economy</a
           >
         </div>
-        <div class="row col-lg-10">
-          <p class="col-5 col-md-12 col-lg-5 ml-1"></p>
-          <div
-            class="col-7 col-md-12 col-lg-7 d-flex align-items-center order-md-first"
-          ></div>
+        <div class="row col-lg">
+          <div class="container-fluid">
+            <div
+              class="col nav flex-column nav-pills me-3 bg-white"
+              id="v-pills-tab"
+              role="tablist"
+              aria-orientation="horizontal"
+            >
+              <div class="row">
+                <button
+                  class="nav-link active col-4"
+                  id="people-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#people"
+                  type="button"
+                  role="tab"
+                  aria-controls="people"
+                  aria-selected="true"
+                >
+                  people
+                </button>
+                <button
+                  class="nav-link col-4"
+                  id="Landmarks-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#Landmarks"
+                  type="button"
+                  role="tab"
+                  aria-controls="Landmarks"
+                  aria-selected="false"
+                >
+                  Landmarks
+                </button>
+                <button
+                  class="nav-link col-4"
+                  id="other-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#other"
+                  type="button"
+                  role="tab"
+                  aria-controls="other"
+                  aria-selected="false"
+                >
+                  Other
+                </button>
+              </div>
+            </div>
+
+            <div class="col tab-content" id="v-pills-tabContent">
+              <div
+                class="tab-pane active"
+                id="people"
+                role="tabpanel"
+                aria-labelledby="people-tab"
+              >
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col"><h1>People</h1></div>
+
+                    <div class="col"></div>
+                  </div>
+                  <div class="row">
+                    <div class="card" style="width: 18rem">
+                      <img src="..." class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane"
+                id="Landmarks"
+                role="tabpanel"
+                aria-labelledby="people-tab"
+              >
+                <div class="container-fluid overflow-hidden">
+                  <div class="row">
+                    <div class="col"><h1>Landmarks</h1></div>
+
+                    <div class="col"></div>
+                  </div>
+                  <div class="row gx-5">
+                    <div class="card col-3">
+                      <img src="..." class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                    <div class="card col-3">
+                      <img src="..." class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane"
+                id="other"
+                role="tabpanel"
+                aria-labelledby="other-tab"
+              >
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col"><h1>Other</h1></div>
+                  </div>
+                  <div class="row">
+                    <div class="card" style="width: 18rem">
+                      <img src="..." class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
