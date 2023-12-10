@@ -63,139 +63,260 @@
           >
         </div>
         <div class="row col-lg">
-          <div class="container-fluid">
+          <div class="row bg-white">
             <div
-              class="col nav flex-column nav-pills me-3 bg-white"
+              class="nav nav-pills me-3"
               id="v-pills-tab"
               role="tablist"
               aria-orientation="horizontal"
             >
-              <div class="row">
-                <button
-                  class="nav-link active col-4"
-                  id="people-tab"
-                  data-bs-toggle="pill"
-                  data-bs-target="#people"
-                  type="button"
-                  role="tab"
-                  aria-controls="people"
-                  aria-selected="true"
-                >
-                  people
-                </button>
-                <button
-                  class="nav-link col-4"
-                  id="Landmarks-tab"
-                  data-bs-toggle="pill"
-                  data-bs-target="#Landmarks"
-                  type="button"
-                  role="tab"
-                  aria-controls="Landmarks"
-                  aria-selected="false"
-                >
-                  Landmarks
-                </button>
-                <button
-                  class="nav-link col-4"
-                  id="other-tab"
-                  data-bs-toggle="pill"
-                  data-bs-target="#other"
-                  type="button"
-                  role="tab"
-                  aria-controls="other"
-                  aria-selected="false"
-                >
-                  Other
-                </button>
-              </div>
-            </div>
-
-            <div class="col tab-content" id="v-pills-tabContent">
-              <div
-                class="tab-pane active"
-                id="people"
-                role="tabpanel"
-                aria-labelledby="people-tab"
+              <button
+                class="nav-link active col-4"
+                id="people-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#people"
+                type="button"
+                role="tab"
+                aria-controls="people"
+                aria-selected="true"
               >
-                <div class="container-fluid">
-                  <div class="row">
-                    <div class="col"><h1>People</h1></div>
+                people
+              </button>
+              <button
+                class="nav-link col-4"
+                id="Landmarks-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#Landmarks"
+                type="button"
+                role="tab"
+                aria-controls="Landmarks"
+                aria-selected="false"
+              >
+                Landmarks
+              </button>
+              <button
+                class="nav-link col-4"
+                id="other-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#other"
+                type="button"
+                role="tab"
+                aria-controls="other"
+                aria-selected="false"
+              >
+                Other
+              </button>
 
-                    <div class="col"></div>
-                  </div>
-                  <div class="row">
-                    <div class="card" style="width: 18rem">
-                      <img src="..." class="card-img-top" alt="..." />
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                          Some quick example text to build on the card title and
-                          make up the bulk of the card's content.
-                        </p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+              <div class="col tab-content" id="v-pills-tabContent">
+                <div
+                  class="tab-pane active"
+                  id="people"
+                  role="tabpanel"
+                  aria-labelledby="people-tab"
+                >
+                  <div class="container-fluid">
+                    <div class="row gx-5">
+                      <div class="card col-6 col-md-3">
+                        <img
+                          src="Images/bjorkS.png"
+                          class="card-img-top"
+                          alt="A picture of Bjork"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Bjork</h5>
+                          <p class="card-text">
+                            There is no doubt that Björk is one of the most
+                            famous Icelandic singers.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card col-6 col-md-3">
+                        <img
+                          src="Images/leif.jpg"
+                          class="card-img-top"
+                          alt="A picture of Leif Erikson"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Leif Erikson</h5>
+                          <p class="card-text">
+                            Leif Erikson was a Norse explorer that was actually
+                            one of the first Europeans to set foot on North
+                            American soil.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card col-6 col-md-3">
+                        <img
+                          src="Images/sigurros.jpg"
+                          class="card-img-top"
+                          alt="A picture of Sigur Ros"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Sigur Ros</h5>
+                          <p class="card-text">
+                            Sigur Ros has tread deep footsteps in the music
+                            industry for almost 30 years! Although they are
+                            generally described as a rock band, their music,
+                            similarly to that of Björk, is very experimental.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card col-6 col-md-3">
+                        <img
+                          src="Images/StefanKarl.jpg"
+                          class="card-img-top"
+                          alt="A picture of Stefan Karl Stefansson"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Stefan Karl Stefansson</h5>
+                          <p class="card-text">
+                            If you’ve ever been a fan of the villain, Robbie
+                            Rotten, in the series, LazyTown; the actor is from
+                            Iceland!
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div
-                class="tab-pane"
-                id="Landmarks"
-                role="tabpanel"
-                aria-labelledby="people-tab"
-              >
-                <div class="container-fluid overflow-hidden">
-                  <div class="row">
-                    <div class="col"><h1>Landmarks</h1></div>
-
-                    <div class="col"></div>
-                  </div>
-                  <div class="row gx-5">
-                    <div class="card col-3">
-                      <img src="..." class="card-img-top" alt="..." />
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                          Some quick example text to build on the card title and
-                          make up the bulk of the card's content.
-                        </p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div
+                  class="tab-pane"
+                  id="Landmarks"
+                  role="tabpanel"
+                  aria-labelledby="Landmarks-tab"
+                >
+                  <div class="container-fluid overflow-hidden">
+                    <div class="row gx-5">
+                      <div class="card col-6 col-md-3">
+                        <img
+                          src="Images/bjorkS.png"
+                          class="card-img-top"
+                          alt="A picture of Bjork"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Bjork</h5>
+                          <p class="card-text">
+                            There is no doubt that Björk is one of the most
+                            famous Icelandic singers.
+                          </p>
+                        </div>
                       </div>
-                    </div>
-                    <div class="card col-3">
-                      <img src="..." class="card-img-top" alt="..." />
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                          Some quick example text to build on the card title and
-                          make up the bulk of the card's content.
-                        </p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <div class="card col-6 col-md-3">
+                        <img
+                          src="Images/leif.jpg"
+                          class="card-img-top"
+                          alt="A picture of Leif Erikson"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Leif Erikson</h5>
+                          <p class="card-text">
+                            Leif Erikson was a Norse explorer that was actually
+                            one of the first Europeans to set foot on North
+                            American soil.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card col-6 col-md-3">
+                        <img
+                          src="Images/sigurros.jpg"
+                          class="card-img-top"
+                          alt="A picture of Sigur Ros"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Sigur Ros</h5>
+                          <p class="card-text">
+                            Sigur Ros has tread deep footsteps in the music
+                            industry for almost 30 years! Although they are
+                            generally described as a rock band, their music,
+                            similarly to that of Björk, is very experimental.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card col-6 col-md-3">
+                        <img
+                          src="Images/StefanKarl.jpg"
+                          class="card-img-top"
+                          alt="A picture of Stefan Karl Stefansson"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Stefan Karl Stefansson</h5>
+                          <p class="card-text">
+                            If you’ve ever been a fan of the villain, Robbie
+                            Rotten, in the series, LazyTown; the actor is from
+                            Iceland!
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div
-                class="tab-pane"
-                id="other"
-                role="tabpanel"
-                aria-labelledby="other-tab"
-              >
-                <div class="container-fluid">
-                  <div class="row">
-                    <div class="col"><h1>Other</h1></div>
-                  </div>
-                  <div class="row">
-                    <div class="card" style="width: 18rem">
-                      <img src="..." class="card-img-top" alt="..." />
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                          Some quick example text to build on the card title and
-                          make up the bulk of the card's content.
-                        </p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div
+                  class="tab-pane"
+                  id="other"
+                  role="tabpanel"
+                  aria-labelledby="other-tab"
+                >
+                  <div class="container-fluid">
+                    <div class="row gx-5">
+                      <div class="card col-6 col-md-3">
+                        <img
+                          src="Images/bjorkS.png"
+                          class="card-img-top"
+                          alt="A picture of Bjork"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Bjork</h5>
+                          <p class="card-text">
+                            There is no doubt that Björk is one of the most
+                            famous Icelandic singers.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card col-6 col-md-3">
+                        <img
+                          src="Images/leif.jpg"
+                          class="card-img-top"
+                          alt="A picture of Leif Erikson"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Leif Erikson</h5>
+                          <p class="card-text">
+                            Leif Erikson was a Norse explorer that was actually
+                            one of the first Europeans to set foot on North
+                            American soil.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card col-6 col-md-3">
+                        <img
+                          src="Images/sigurros.jpg"
+                          class="card-img-top"
+                          alt="A picture of Sigur Ros"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Sigur Ros</h5>
+                          <p class="card-text">
+                            Sigur Ros has tread deep footsteps in the music
+                            industry for almost 30 years! Although they are
+                            generally described as a rock band, their music,
+                            similarly to that of Björk, is very experimental.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card col-6 col-md-3">
+                        <img
+                          src="Images/StefanKarl.jpg"
+                          class="card-img-top"
+                          alt="A picture of Stefan Karl Stefansson"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Stefan Karl Stefansson</h5>
+                          <p class="card-text">
+                            If you’ve ever been a fan of the villain, Robbie
+                            Rotten, in the series, LazyTown; the actor is from
+                            Iceland!
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
