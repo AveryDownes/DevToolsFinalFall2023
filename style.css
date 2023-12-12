@@ -11,3 +11,6 @@ body {
   .navButton {
     height: 60px;
   }
+  .historyImages{
+    max-width: 100%;
+  }
