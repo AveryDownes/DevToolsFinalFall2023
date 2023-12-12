@@ -29,7 +29,7 @@
     </div>
     <div class="container-flex py-1">
       <div class="row">
-        <div id="nav" class="row col-lg-2">
+        <div id="nav" class="row col-lg-2 flex-lg-column">
           <a
             href="Index.html"
             class="navButton col col-lg-12 text-center bg-white border border-primary-subtle"
@@ -63,260 +63,280 @@
           >
         </div>
         <div class="row col-lg">
-          <div class="row bg-white">
-            <div
-              class="nav nav-pills me-3"
-              id="v-pills-tab"
-              role="tablist"
-              aria-orientation="horizontal"
+          <div
+            class="nav nav-pills me-3"
+            id="v-pills-tab"
+            role="tablist"
+            aria-orientation="horizontal"
+          >
+            <button
+              class="nav-link active col-4"
+              id="people-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#people"
+              type="button"
+              role="tab"
+              aria-controls="people"
+              aria-selected="true"
             >
-              <button
-                class="nav-link active col-4"
-                id="people-tab"
-                data-bs-toggle="pill"
-                data-bs-target="#people"
-                type="button"
-                role="tab"
-                aria-controls="people"
-                aria-selected="true"
-              >
-                people
-              </button>
-              <button
-                class="nav-link col-4"
-                id="Landmarks-tab"
-                data-bs-toggle="pill"
-                data-bs-target="#Landmarks"
-                type="button"
-                role="tab"
-                aria-controls="Landmarks"
-                aria-selected="false"
-              >
-                Landmarks
-              </button>
-              <button
-                class="nav-link col-4"
-                id="other-tab"
-                data-bs-toggle="pill"
-                data-bs-target="#other"
-                type="button"
-                role="tab"
-                aria-controls="other"
-                aria-selected="false"
-              >
-                Other
-              </button>
+              people
+            </button>
+            <button
+              class="nav-link col-4"
+              id="Landmarks-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#Landmarks"
+              type="button"
+              role="tab"
+              aria-controls="Landmarks"
+              aria-selected="false"
+            >
+              Landmarks
+            </button>
+            <button
+              class="nav-link col-4"
+              id="other-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#other"
+              type="button"
+              role="tab"
+              aria-controls="other"
+              aria-selected="false"
+            >
+              Other
+            </button>
 
-              <div class="col tab-content" id="v-pills-tabContent">
-                <div
-                  class="tab-pane active"
-                  id="people"
-                  role="tabpanel"
-                  aria-labelledby="people-tab"
-                >
-                  <div class="container-fluid">
-                    <div class="row gx-5">
-                      <div class="card col-6 col-md-3">
-                        <img
-                          src="Images/bjorkS.png"
-                          class="card-img-top"
-                          alt="A picture of Bjork"
-                        />
-                        <div class="card-body">
-                          <h5 class="card-title">Bjork</h5>
-                          <p class="card-text">
-                            There is no doubt that Björk is one of the most
-                            famous Icelandic singers.
-                          </p>
-                        </div>
+            <div class="col tab-content" id="v-pills-tabContent">
+              <div
+                class="tab-pane active"
+                id="people"
+                role="tabpanel"
+                aria-labelledby="people-tab"
+              >
+                <div class="container-fluid overflow-hidden">
+                  <div class="row">
+                    <div class="card col-6 col-md-3">
+                      <img
+                        src="Images/bjorkS.png"
+                        class="card-img-top"
+                        alt="A picture of Bjork"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Bjork</h5>
+                        <p class="card-text">
+                          There is no doubt that Björk is one of the most famous
+                          Icelandic singers.
+                        </p>
                       </div>
-                      <div class="card col-6 col-md-3">
-                        <img
-                          src="Images/leif.jpg"
-                          class="card-img-top"
-                          alt="A picture of Leif Erikson"
-                        />
-                        <div class="card-body">
-                          <h5 class="card-title">Leif Erikson</h5>
-                          <p class="card-text">
-                            Leif Erikson was a Norse explorer that was actually
-                            one of the first Europeans to set foot on North
-                            American soil.
-                          </p>
-                        </div>
+                    </div>
+                    <div class="card col-6 col-md-3">
+                      <img
+                        src="Images/leif.jpg"
+                        class="card-img-top"
+                        alt="A picture of Leif Erikson"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Leif Erikson</h5>
+                        <p class="card-text">
+                          Leif Erikson was a Norse explorer that was actually
+                          one of the first Europeans to set foot on North
+                          American soil.
+                        </p>
                       </div>
-                      <div class="card col-6 col-md-3">
-                        <img
-                          src="Images/sigurros.jpg"
-                          class="card-img-top"
-                          alt="A picture of Sigur Ros"
-                        />
-                        <div class="card-body">
-                          <h5 class="card-title">Sigur Ros</h5>
-                          <p class="card-text">
-                            Sigur Ros has tread deep footsteps in the music
-                            industry for almost 30 years! Although they are
-                            generally described as a rock band, their music,
-                            similarly to that of Björk, is very experimental.
-                          </p>
-                        </div>
+                    </div>
+                    <div class="card col-6 col-md-3">
+                      <img
+                        src="Images/sigurros.jpg"
+                        class="card-img-top"
+                        alt="A picture of Sigur Ros"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Sigur Ros</h5>
+                        <p class="card-text">
+                          Sigur Ros has tread deep footsteps in the music
+                          industry for almost 30 years! Although they are
+                          generally described as a rock band, their music,
+                          similarly to that of Björk, is very experimental.
+                        </p>
                       </div>
-                      <div class="card col-6 col-md-3">
-                        <img
-                          src="Images/StefanKarl.jpg"
-                          class="card-img-top"
-                          alt="A picture of Stefan Karl Stefansson"
-                        />
-                        <div class="card-body">
-                          <h5 class="card-title">Stefan Karl Stefansson</h5>
-                          <p class="card-text">
-                            If you’ve ever been a fan of the villain, Robbie
-                            Rotten, in the series, LazyTown; the actor is from
-                            Iceland!
-                          </p>
-                        </div>
+                    </div>
+                    <div class="card col-6 col-md-3">
+                      <img
+                        src="Images/StefanKarl.jpg"
+                        class="card-img-top"
+                        alt="A picture of Stefan Karl Stefansson"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Stefan Karl Stefansson</h5>
+                        <p class="card-text">
+                          If you’ve ever been a fan of the villain, Robbie
+                          Rotten, in the series, LazyTown; the actor is from
+                          Iceland!
+                        </p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div
-                  class="tab-pane"
-                  id="Landmarks"
-                  role="tabpanel"
-                  aria-labelledby="Landmarks-tab"
-                >
-                  <div class="container-fluid overflow-hidden">
-                    <div class="row gx-5">
-                      <div class="card col-6 col-md-3">
-                        <img
-                          src="Images/bjorkS.png"
-                          class="card-img-top"
-                          alt="A picture of Bjork"
-                        />
-                        <div class="card-body">
-                          <h5 class="card-title">Bjork</h5>
-                          <p class="card-text">
-                            There is no doubt that Björk is one of the most
-                            famous Icelandic singers.
-                          </p>
-                        </div>
+              </div>
+              <div
+                class="tab-pane"
+                id="Landmarks"
+                role="tabpanel"
+                aria-labelledby="Landmarks-tab"
+              >
+                <div class="container-fluid overflow-hidden">
+                  <div class="row">
+                    <div class="card col-6 col-md-3">
+                      <img
+                        src="Images/hallgrimskirkja.jpg"
+                        class="card-img-top"
+                        alt="A picture of the Hallgrímskirkja church"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Hallgrímskirkja church</h5>
+                        <p class="card-text">
+                          Hallgrímskirkja is the landmark symbol of Reykjavik.
+                          This towering gray pillar stands tall above all else
+                          in the otherwise modest architecture of the city. All
+                          around it are corrugated iron houses painted in all
+                          the colors of the rainbow, with the occasional wooden
+                          home sticking out in between.
+                        </p>
                       </div>
-                      <div class="card col-6 col-md-3">
-                        <img
-                          src="Images/leif.jpg"
-                          class="card-img-top"
-                          alt="A picture of Leif Erikson"
-                        />
-                        <div class="card-body">
-                          <h5 class="card-title">Leif Erikson</h5>
-                          <p class="card-text">
-                            Leif Erikson was a Norse explorer that was actually
-                            one of the first Europeans to set foot on North
-                            American soil.
-                          </p>
-                        </div>
+                    </div>
+                    <div class="card col-6 col-md-3">
+                      <img
+                        src="Images/Sólfarið.jpg"
+                        class="card-img-top"
+                        alt="A picture of the Sólfarið sculpture"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          S&oacute;lfar&#240; sculpture
+                        </h5>
+                        <p class="card-text">
+                          Strolling around Reykjavik you will stumble upon many
+                          sculptures and art pieces but only very few get as
+                          much attention as Sólfarið or the ‘Sun Voyager’.
+                        </p>
                       </div>
-                      <div class="card col-6 col-md-3">
-                        <img
-                          src="Images/sigurros.jpg"
-                          class="card-img-top"
-                          alt="A picture of Sigur Ros"
-                        />
-                        <div class="card-body">
-                          <h5 class="card-title">Sigur Ros</h5>
-                          <p class="card-text">
-                            Sigur Ros has tread deep footsteps in the music
-                            industry for almost 30 years! Although they are
-                            generally described as a rock band, their music,
-                            similarly to that of Björk, is very experimental.
-                          </p>
-                        </div>
+                    </div>
+                    <div class="card col-6 col-md-3">
+                      <img
+                        src="Images/perlan-reykjavik.jpg"
+                        class="card-img-top"
+                        alt="A picture of Perlan"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Perlan</h5>
+                        <p class="card-text">
+                          Perlan is a natural history museum in Reykjavík,
+                          Iceland. It is situated on the top of Öskjuhlíð hill.
+                          It was initially only a cluster of hot water tanks,
+                          but on June 21st, 1991, the building was opened to the
+                          public. The building consists of a glass dome resting
+                          on top of six district heating tanks. Four of them are
+                          still in use, one hosts an ice cave, and one has been
+                          turned into a planetarium.
+                        </p>
                       </div>
-                      <div class="card col-6 col-md-3">
-                        <img
-                          src="Images/StefanKarl.jpg"
-                          class="card-img-top"
-                          alt="A picture of Stefan Karl Stefansson"
-                        />
-                        <div class="card-body">
-                          <h5 class="card-title">Stefan Karl Stefansson</h5>
-                          <p class="card-text">
-                            If you’ve ever been a fan of the villain, Robbie
-                            Rotten, in the series, LazyTown; the actor is from
-                            Iceland!
-                          </p>
-                        </div>
+                    </div>
+                    <div class="card col-6 col-md-3">
+                      <img
+                        src="Images/harpa-reykjavik-concert.jpg"
+                        class="card-img-top"
+                        alt="A picture of the Harpa Concert Hall"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Harpa Concert Hall</h5>
+                        <p class="card-text">
+                          Harpa is one of Reykjavík’s most striking landmarks
+                          and a centre of cultural and social life in the very
+                          heart of the city. Harpa is a tourist destination and
+                          an award-winning work of art that has been visited by
+                          millions of people since opening in 2011.
+                        </p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div
-                  class="tab-pane"
-                  id="other"
-                  role="tabpanel"
-                  aria-labelledby="other-tab"
-                >
-                  <div class="container-fluid">
-                    <div class="row gx-5">
-                      <div class="card col-6 col-md-3">
-                        <img
-                          src="Images/bjorkS.png"
-                          class="card-img-top"
-                          alt="A picture of Bjork"
-                        />
-                        <div class="card-body">
-                          <h5 class="card-title">Bjork</h5>
-                          <p class="card-text">
-                            There is no doubt that Björk is one of the most
-                            famous Icelandic singers.
-                          </p>
-                        </div>
+              </div>
+              <div
+                class="tab-pane"
+                id="other"
+                role="tabpanel"
+                aria-labelledby="other-tab"
+              >
+                <div class="container-fluid overflow-hidden">
+                  <div class="row">
+                    <div class="card col-6 col-md-3">
+                      <img
+                        src="Images/lopapeysa.jpg"
+                        class="card-img-top"
+                        alt="A picture of a lopapeysa"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">lopapeysa</h5>
+                        <p class="card-text">
+                          A lopapeysa or Icelandic sweater is an Icelandic style
+                          of sweater originating in early or mid-20th century,
+                          at a time when imports had displaced older and more
+                          traditional Icelandic clothing and people began to
+                          search for new ways to utilize the plentiful native
+                          wool. The design has since become a national icon for
+                          Icelandic cultural identity.
+                        </p>
                       </div>
-                      <div class="card col-6 col-md-3">
-                        <img
-                          src="Images/leif.jpg"
-                          class="card-img-top"
-                          alt="A picture of Leif Erikson"
-                        />
-                        <div class="card-body">
-                          <h5 class="card-title">Leif Erikson</h5>
-                          <p class="card-text">
-                            Leif Erikson was a Norse explorer that was actually
-                            one of the first Europeans to set foot on North
-                            American soil.
-                          </p>
-                        </div>
+                    </div>
+                    <div class="card col-6 col-md-3">
+                      <img
+                        src="Images/fishing.jpg"
+                        class="card-img-top"
+                        alt="A picture of an Icelandic Fisherman"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Fishing</h5>
+                        <p class="card-text">
+                          Fishing is an intrinsic part of Iceland's history and
+                          heritage. Since the country was first settled,
+                          Icelandic fishermen have braved the seas to bring home
+                          their catch. Fish was both an important source of
+                          food, and laid the foundation of our economy.
+                        </p>
                       </div>
-                      <div class="card col-6 col-md-3">
-                        <img
-                          src="Images/sigurros.jpg"
-                          class="card-img-top"
-                          alt="A picture of Sigur Ros"
-                        />
-                        <div class="card-body">
-                          <h5 class="card-title">Sigur Ros</h5>
-                          <p class="card-text">
-                            Sigur Ros has tread deep footsteps in the music
-                            industry for almost 30 years! Although they are
-                            generally described as a rock band, their music,
-                            similarly to that of Björk, is very experimental.
-                          </p>
-                        </div>
+                    </div>
+                    <div class="card col-6 col-md-3">
+                      <img
+                        src="Images/icelandic.jpg"
+                        class="card-img-top"
+                        alt="A picture of written Icelandic"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">The Icelandic Language</h5>
+                        <p class="card-text">
+                          Icelandic is a North Germanic language spoken by about
+                          314,000 people, the vast majority of whom live in
+                          Iceland, where it is the national language.
+                        </p>
                       </div>
-                      <div class="card col-6 col-md-3">
-                        <img
-                          src="Images/StefanKarl.jpg"
-                          class="card-img-top"
-                          alt="A picture of Stefan Karl Stefansson"
-                        />
-                        <div class="card-body">
-                          <h5 class="card-title">Stefan Karl Stefansson</h5>
-                          <p class="card-text">
-                            If you’ve ever been a fan of the villain, Robbie
-                            Rotten, in the series, LazyTown; the actor is from
-                            Iceland!
-                          </p>
-                        </div>
+                    </div>
+                    <div class="card col-6 col-md-3">
+                      <img
+                        src="Images/dance.jpg"
+                        class="card-img-top"
+                        alt="A picture of people dancing the vallanes"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Vallanes</h5>
+                        <p class="card-text">
+                          Vallanes is a traditional Icelandic folk dance that is
+                          often performed at weddings and other social
+                          gatherings. The dance involves a group of dancers
+                          holding hands and forming a circle, while one or more
+                          dancers perform a series of steps and movements in the
+                          center of the circle. The dance is typically performed
+                          to the beat of traditional Icelandic music.
+                        </p>
                       </div>
                     </div>
                   </div>
