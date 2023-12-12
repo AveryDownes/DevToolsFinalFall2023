@@ -10,9 +10,7 @@ body {
   }
   .navButton {
     height: 60px;
-  }
-  .card{
-    margin: 0px;
+    margin-top: 5px;
   }
   .card-img-top{
     max-width: 100%;
@@ -20,6 +18,9 @@ body {
   }
   .card-text{
     font-size: 1.2rem;
+  }
+  .nav-link{
+    background-color: white;
   }
   @media only screen and (min-width: 768px) {
     .card-text{
