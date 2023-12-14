@@ -64,47 +64,62 @@
         </div>
         <div class="row col-lg">
           <div
-            class="nav nav-pills me-3"
-            id="v-pills-tab"
+            class="nav nav-tab dropdown d-flex align-self-center"
+            id="v-tab"
             role="tablist"
             aria-orientation="horizontal"
           >
-            <button
-              class="nav-link active col-4"
-              id="people-tab"
-              data-bs-toggle="pill"
-              data-bs-target="#people"
-              type="button"
-              role="tab"
-              aria-controls="people"
-              aria-selected="true"
-            >
-              people
-            </button>
-            <button
-              class="nav-link col-4"
-              id="Landmarks-tab"
-              data-bs-toggle="pill"
-              data-bs-target="#Landmarks"
-              type="button"
-              role="tab"
-              aria-controls="Landmarks"
-              aria-selected="false"
-            >
-              Landmarks
-            </button>
-            <button
-              class="nav-link col-4"
-              id="other-tab"
-              data-bs-toggle="pill"
-              data-bs-target="#other"
-              type="button"
-              role="tab"
-              aria-controls="other"
-              aria-selected="false"
-            >
-              Other
-            </button>
+            <div class="col-12">
+              <button
+                class="btn btn-light dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Categories
+              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <button
+                    class="dropdown-item nav-link active col-4"
+                    id="people-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#people"
+                    type="button"
+                    role="tab"
+                    aria-controls="people"
+                    aria-selected="true"
+                  >
+                    people
+                  </button>
+                </li>
+
+                <button
+                  class="nav-link col-4"
+                  id="Landmarks-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#Landmarks"
+                  type="button"
+                  role="tab"
+                  aria-controls="Landmarks"
+                  aria-selected="false"
+                >
+                  Landmarks
+                </button>
+                <button
+                  class="nav-link col-4"
+                  id="other-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#other"
+                  type="button"
+                  role="tab"
+                  aria-controls="other"
+                  aria-selected="false"
+                >
+                  Other
+                </button>
+              </ul>
+            </div>
 
             <div class="col tab-content" id="v-pills-tabContent">
               <div
