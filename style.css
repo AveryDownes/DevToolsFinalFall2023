@@ -16,20 +16,26 @@ body {
   }
   .navButton {
     height: 60px;
-  }
-  .historyImages{
+    
+    margin-top: 5px;
+}
+.historyImages{
     max-width: 100%;
   }
   .natureImg{
     max-width: 100%;
     box-shadow: 15px 15px 15px;
   }
+  
   @media only screen and (min-width: 768px) {
     h2{
       font-size: 3rem;
     }
     .historyText1{
       font-size: 1.5rem;
+    }
+        .card-text{
+      font-size: 1rem;
     }
   }
   @media only screen and (min-width: 992px) {
@@ -41,6 +47,18 @@ body {
       font-size: 3.5rem;
     }
     p{
-      max-width: 1000px;
+      max-width: 1000px;}
+      .card-text{
+      font-size: 0.8rem;
+
     }
   }
+  .card-img-top{
+    max-width: 100%;
+    margin:5px;
+  }
+  .card-text{
+    font-size: 1.2rem;
+  }
+  .nav-link{
+    background-color: white;
