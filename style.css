@@ -8,9 +8,50 @@ body {
     font-weight: bold;
     font-size: 3rem;
   }
+  h2{
+    font-family: iceland;
+    font-weight: bold;
+
+    font-size: 2rem;
+  }
   .navButton {
     height: 60px;
+    
     margin-top: 5px;
+}
+.historyImages{
+    max-width: 100%;
+  }
+  .natureImg{
+    max-width: 100%;
+    box-shadow: 15px 15px 15px;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    h2{
+      font-size: 3rem;
+    }
+    .historyText1{
+      font-size: 1.5rem;
+    }
+        .card-text{
+      font-size: 1rem;
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    .historyText1{
+      max-width: 250px;
+      font-size: 1.3rem;
+    }
+    h2{
+      font-size: 3.5rem;
+    }
+    p{
+      max-width: 1000px;}
+      .card-text{
+      font-size: 0.8rem;
+
+    }
   }
   .card-img-top{
     max-width: 100%;
@@ -21,14 +62,3 @@ body {
   }
   .nav-link{
     background-color: white;
-  }
-  @media only screen and (min-width: 768px) {
-    .card-text{
-      font-size: 1rem;
-    }
-  }
-  @media only screen and (min-width: 992px) {
-    .card-text{
-      font-size: 0.8rem;
-    }
-  }
