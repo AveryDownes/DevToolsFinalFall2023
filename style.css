@@ -8,6 +8,36 @@ body {
     font-weight: bold;
     font-size: 3rem;
   }
+  h2{
+    font-family: iceland;
+    font-weight: bold;
+
+    font-size: 2rem;
+  }
   .navButton {
     height: 60px;
+  }
+  .historyImages{
+    max-width: 100%;
+  }
+  .natureImg{
+    max-width: 100%;
+    box-shadow: 15px 15px 15px;
+  }
+  @media only screen and (min-width: 768px) {
+    h2{
+      font-size: 3rem;
+    }
+    .historyText1{
+      font-size: 1.5rem;
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    .historyText1{
+      max-width: 250px;
+      font-size: 1.3rem;
+    }
+    h2{
+      font-size: 3.5rem;
+    }
   }
